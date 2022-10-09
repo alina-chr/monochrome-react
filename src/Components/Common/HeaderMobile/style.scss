@@ -1,0 +1,14 @@
+@import '~bootstrap/scss/bootstrap-utilities';
+@import './HeaderMenu/style.scss';
+
+
+.header-mobile {
+  width: 100%;
+
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $primary;
+    font-weight: 700;
+  }
+}

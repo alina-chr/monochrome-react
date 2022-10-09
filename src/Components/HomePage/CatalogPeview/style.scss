@@ -1,0 +1,27 @@
+
+@import '~bootstrap/scss/bootstrap-utilities';
+
+.catalog-preview {
+  width: 70%;
+  margin: 0 auto;
+  border-top: 1px solid #ccc;
+  margin-top: 25px;
+
+  h1 {
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .catalog-tiles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2px;
+    column-gap: 2px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+ }

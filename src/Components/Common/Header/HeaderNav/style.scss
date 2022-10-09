@@ -1,0 +1,30 @@
+@import '~bootstrap/scss/bootstrap-utilities';
+
+.nav {
+  @include media-breakpoint-up(md) {
+    display: block;
+    text-align: center;
+    background-color: $primary;
+    height: 52px;
+
+    ul {
+      width: 70%;
+
+      li {
+        a {
+          color: $white;
+          font-size: 20px;
+          text-transform: uppercase;
+          line-height: 50px;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  display: none;
+}

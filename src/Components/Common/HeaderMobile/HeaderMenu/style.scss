@@ -1,0 +1,35 @@
+@import '~bootstrap/scss/bootstrap-utilities';
+
+
+.nav-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@include media-breakpoint-down(md) {
+
+    .menu-nav {
+      background-color: $primary;
+      width: 100%;
+
+      input {
+        background-color: $primary;
+        border-color: $white;
+        border-width: 1px;
+        font-family: 'Roboto', sans-serif;
+        color: $white;
+        font-size: 14px;
+      }
+
+      svg {
+        color: $white;
+      }
+    }
+
+    a {
+      .menu {
+        color: $white;
+      }
+    }
+
+}

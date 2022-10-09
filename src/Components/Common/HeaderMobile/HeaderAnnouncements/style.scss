@@ -1,0 +1,10 @@
+.header-announcements {
+  font-family: 'Roboto', sans-serif;
+
+
+  span:first-of-type {
+    svg {
+      transform: rotate(90deg);
+    }
+  }
+}

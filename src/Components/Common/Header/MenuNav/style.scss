@@ -1,0 +1,6 @@
+@import '~bootstrap/scss/bootstrap-utilities';
+
+a {
+  color: $primary;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,40 @@
+@import '~bootstrap/scss/bootstrap-utilities';
+
+a {
+  color: $success;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+.product-tile {
+  width: 100%;
+
+
+  .product-image-container {
+    width: 100%;
+
+    img {
+      width: 98%;
+    }
+  }
+}
+
+
+@include media-breakpoint-down(md) {
+    h2 {
+      margin-bottom: 0;
+      margin-top: 5px;
+
+      a {
+        font-size: 16px;
+      }
+    }
+
+    span {
+      font-size: 14px;
+    }
+ }
+
+

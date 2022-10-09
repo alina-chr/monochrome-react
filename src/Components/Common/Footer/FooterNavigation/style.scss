@@ -1,0 +1,69 @@
+@import '~bootstrap/scss/bootstrap-utilities';
+
+ul {
+  width: 100%;
+  padding-left: 0;
+
+  li {
+    font-size: 15px;
+    text-transform: lowercase;
+    text-align: left;
+    letter-spacing: 0.33px;
+    color: $primary;
+
+    a {
+      text-decoration: none;
+      color: $primary;
+
+      &:hover {
+        color: $success;
+      }
+    }
+  }
+}
+
+.footer-nav {
+  justify-content: space-between;
+  width: 70%;
+}
+
+@include media-breakpoint-down(md) {
+
+  ul {
+    width: 100%;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 100%;
+
+    li {
+      text-align: center;
+    }
+  }
+
+  .footer-nav-style {
+    width: 35%;
+
+    a {
+      color: $white;
+      font-size: 12px;
+      font-family: 'Roboto', sans-serif;
+      text-transform: lowercase;
+    }
+  }
+
+  .footer-nav-about-us {
+    border-right: 1px solid $white;
+    width:35%;
+
+    a {
+      color: $white;
+      font-size: 12px;
+      font-family: 'Roboto', sans-serif;
+      text-transform: lowercase;
+    }
+  }
+}

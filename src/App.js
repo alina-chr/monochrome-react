@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from './Components/Common/Footer';
+import Header from './Components/Common/Header';
+import HeaderMobile from './Components/Common/HeaderMobile';
+import HomePage from './Components/HomePage';
+import { isHandheld } from './utils';
 
 function App() {
+  console.log(isHandheld);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      { isHandheld ? <HeaderMobile/> : <Header/> }
+    <HomePage/>
+    <Footer/>
     </div>
   );
 }

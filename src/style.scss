@@ -1,0 +1,27 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+// project reset
+@import './reset';
+@import './custom';
+
+@import './Components/Common/Header/style.scss';
+@import './Components/Common/HeaderMobile/style.scss';
+
+@import './Components/Common/Footer/style.scss';
+@import './Components/HomePage/style.scss';
+@import './Components/Common/Button/style.scss';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:wght@400;500&family=Roboto&display=swap');
+
+  body {
+    font-family: 'Playfair Display', serif;
+    color: $primary;
+    font-style: normal;
+    font-variant: normal;
+    letter-spacing: 0.33px;
+    text-overflow: ellipsis;
+  }
+

@@ -1,0 +1,29 @@
+@import '~bootstrap/scss/bootstrap-utilities';
+
+.footer-social {
+  margin: 0 auto;
+}
+
+.footer-sign-up-newsletter {
+  button {
+    width: 45%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: capitalize;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .footer-sign-up-newsletter {
+    margin: 0 auto;
+
+    button {
+      width: 50%;
+      margin: 0 auto;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      border: 1px solid;
+    }
+  }
+}

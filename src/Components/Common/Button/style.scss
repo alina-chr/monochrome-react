@@ -1,0 +1,11 @@
+@import '~bootstrap/scss/bootstrap-utilities';
+
+.buttonStyle {
+  border-radius: 0;
+  background-color: $white;
+  border-color: $primary;
+  color: $primary;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+}
